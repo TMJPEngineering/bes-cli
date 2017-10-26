@@ -1,0 +1,31 @@
+{
+  "name": "mevn",
+  "version": "1.0.0",
+  "description": "MEVN Cli",
+  "repository": "https://github.com/TMJPEngineering/mevn-cli.git",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mevn": "bin/mevn"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "abbrev": "^1.1.1",
+    "bower-logger": "^0.2.2",
+    "chalk": "^2.3.0",
+    "findup-sync": "^2.0.0",
+    "graceful-fs": "^4.1.11",
+    "mout": "^1.1.0",
+    "nopt": "^4.0.1",
+    "path": "^0.12.7",
+    "promptly": "^2.2.0",
+    "q": "^1.5.1"
+  }
+}
